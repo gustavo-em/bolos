@@ -15,6 +15,7 @@ function App() {
     <div>
       <p>Teste de colocar traço</p>
       <Imagem src={traco} alt="" />
+      <p>testeeeee1</p>
     </div>
   );
 }
