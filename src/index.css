@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=IBM+Plex+Mono&family=Noto+Sans:wght@700&family=Roboto+Condensed&display=swap');
+
+:root{
+  --cor-principal: #E0749B;
+  --cor-secundaria: #D1954F;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+* {
+  font-family: 'Dongle', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+ 
+
+
+
+

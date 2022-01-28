@@ -1,6 +1,13 @@
 import React from 'react'
 import  styled from 'styled-components';
-import traco from './images/traco.svg'
+import { Principal } from './components/principal/component';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Routes
+} from "react-router-dom";
+import { Fotos } from './components/fotos/component';
 
 export const Imagem = styled.img`
   width: 100px;
@@ -12,11 +19,12 @@ function App() {
 
 
   return (
-    <div>
-      <p>Teste de colocar traço</p>
-      <Imagem src={traco} alt="" />
-      <p>testeeeee1</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" exact element={<Principal/>}/>
+        <Route path="/fotos" element={<Fotos/>}/>
+      </Routes>
+    </Router>
   );
 }
 
