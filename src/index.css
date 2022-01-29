@@ -15,5 +15,37 @@
  
 
 
+.imagem{
+
+  
+  background-image: url('./images/fundo.svg');
+  color: #0a010707;
+  background-size:auto;
+  background-blend-mode:color-dodge;
+  background-repeat: repeat;
+  transform: scale3d(5,5,1) translate3d(50px,0,0);
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid;
+  overflow: hidden;
+  position: fixed;
+}
 
 
+.logo{
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url('./images/logo.svg');
+  position: fixed;
+  z-index: 1000;
+  top: 10px;
+}
+
+
+.wrap_logo{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

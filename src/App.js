@@ -1,13 +1,13 @@
 import React from 'react'
 import  styled from 'styled-components';
-import { Principal } from './components/principal/component';
+
 import {
   BrowserRouter as Router,
   Route,
-  Link,
   Routes
 } from "react-router-dom";
 import { Fotos } from './components/fotos/component';
+import { Principal } from './pages/principal/conponent';
 
 export const Imagem = styled.img`
   width: 100px;
