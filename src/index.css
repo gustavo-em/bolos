@@ -15,9 +15,7 @@
  
 
 
-.imagem{
-
-  
+.imagem{  
   background-image: url('./images/fundo.svg');
   color: #0a010707;
   background-size:auto;
@@ -29,6 +27,13 @@
   border: 1px solid;
   overflow: hidden;
   position: fixed;
+}
+
+.conteudo{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
 }
 
 

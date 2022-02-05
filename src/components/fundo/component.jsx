@@ -6,11 +6,17 @@ export function Fundo({children}){
 
     return (
         <>
+        
             <Background>
-                <div className="imagem">                    
+                <div className="imagem">                                 
                 </div>
-                {children}
+                <div className="conteudo">   
+                {children}                                 
+                </div>
+                
+                
             </Background>
+            
         </>    
     )
 
